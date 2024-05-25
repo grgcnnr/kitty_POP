@@ -1,0 +1,1 @@
+total_allowed_breakables = 5
