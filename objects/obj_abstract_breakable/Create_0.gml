@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+controller = instance_find(obj_controller, 0)
+
+
 starting_hp = 1
 hp = starting_hp
 
