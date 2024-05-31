@@ -8,3 +8,4 @@ if(is_swipeable == true){
 } else{
 	show_debug_message("Swiping denied")
 }
+

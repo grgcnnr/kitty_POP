@@ -18,6 +18,6 @@ if( x < (_offsetx * -1) ||
 	y > room_height + _offsety)
 	
 {
-  reposition()
+  	instance_destroy()
 }
 

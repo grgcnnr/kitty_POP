@@ -12,6 +12,10 @@ is_swipeable =  false
 // Default HP to deduct when hit, can be modified by collision object powerups
 damage_to_take = 1
 
+// speed is an object varible
+phy_linear_velocity_x = random(speed)
+phy_linear_velocity_y = random(speed)
+
 
 
 function reposition(){
@@ -25,8 +29,8 @@ function reposition(){
 	var _starting_point = _starting_points[irandom(array_length(_starting_points)-1)]
 	
 
-	x = _starting_point.x
-	y = _starting_point.y
+	phy_position_x = _starting_point.x
+	phy_position_y = _starting_point.y
 
 	return _starting_point
 }
